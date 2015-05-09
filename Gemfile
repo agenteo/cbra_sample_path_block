@@ -38,3 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+#gem "a", path: "components/a"
+#gem "b", path: "components/b"
+path "components" do
+  gem "a"
+end
